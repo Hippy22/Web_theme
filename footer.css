@@ -1,0 +1,15 @@
+.footer{
+    background-color:#2d394b;
+    color: white;
+}
+.div{
+    max-width: 70%;
+}
+.layout_infor{
+    padding-top: 30px;
+}
+.fa-brands{
+    font-size: 22px;
+    margin: 0px 7px;
+    padding-bottom: 15px;
+}

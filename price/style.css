@@ -1,0 +1,104 @@
+:root{
+    --violet:#6c5ce7;
+    --pink:#FC427B;
+    --gradient:linear-gradient(90deg, var(--violet), var(--pink));
+  }
+
+  
+*{
+    font-family: 'Nunito', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border:none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all .2s ease-out;
+  }
+  
+  html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+  }
+  
+  body{
+    padding:3rem 7%;
+  }
+  
+  section{
+    padding:2rem 7%;
+  }
+  
+
+  .btn{
+    display: inline-block;
+    margin-top: 1rem;
+    padding:.8rem 3rem;
+    border-radius: .5rem;
+    background:#333;
+    color:#fff;
+    cursor: pointer;
+    font-size: 1.7rem;
+  }
+  
+  .btn:hover{
+    background:var(--gradient);
+  }
+
+.price{
+    display: flex;
+    flex-wrap: wrap;
+    gap:1.5rem;
+  }
+  
+  .price .box{
+    flex:1 1 30rem;
+    text-align: center;
+    border:.1rem solid rgba(0,0,0,.1);
+    border-radius: .5rem;
+  }
+  
+  .price .box h3{
+    font-size: 2.5rem;
+    color:#333;
+    padding:1.5rem 0;
+  }
+  
+  .price .box .amount{
+    font-size: 4.5rem;
+    color:#fff;
+    padding:1rem 0;
+    background:var(--gradient);
+    font-weight: bold;
+  }
+  
+  .price .box .amount span{
+    font-size: 2rem;
+  }
+  
+  .price .box  ul{
+    border-bottom: .1rem solid rgba(0,0,0,.1);
+    padding: 1rem 0;
+    list-style: none;
+  }
+  
+  .price .box ul li{
+    padding:.7rem 0;
+    font-size: 1.7rem;
+    color:#666;
+  }
+  
+  .price .box .btn{
+    margin:2rem 0;
+  }
+
+  .heading{
+    color:transparent;
+    background:var(--gradient);
+    -webkit-background-clip: text;
+    background-clip: text;
+    padding:0 1rem;
+    padding-top: 2.5rem;
+    text-align: center;
+    font-size: 4rem;
+    text-transform: uppercase;
+  }
